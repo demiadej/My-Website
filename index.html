@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demilade Adejube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Demilade Adejube</h1>
+  <h3>Student of Computer Science and Software Engineering</h3>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Updated home section with introductory paragraphs -->
+<section id="home" class="tab-content">
+  <h2>Welcome to Your Website</h2>
+
+  <!-- Added container for introductory paragraphs -->
+  <div id="intro-container" class="intro-paragraphs">
+    <p class="paragraph active">Welcome to my personal website! My name is Demilade Adejube, I am a second year Computer Science and Software Engineering Student and I am glad to have you here taking a look.</p>
+    <p class="paragraph">I created this website to showcase my coding\ Computer Science skills and abilites as well as my academic achievements in a unique and interactive way. </p>
+    <p class="paragraph">This website was created with HTML, CSS and JavaScript.</p>
+    <p class="paragraph">Feel free to head to the "Contact" tab to get in touch!</p>
+  </div>
+
+  <button id="nextBtn">Next</button>
+</section>
+
+  <section id="portfolio" class="tab-content">
+    <h2>Portfolio</h2>
+    <h4>Explore my portfolio in this section!</h4>
+    <p>Connect with me on LinkedIn <a href="https://www.linkedin.com/in/demilade-adejube-b22811275/" target="_blank">here</a>.</p>
+    <p>Take a look at my resume <a href="https://maynoothuniversity-my.sharepoint.com/:w:/g/personal/demilade_adejube_2023_mumail_ie/EX-FgUKdO5NHr_gETVPYw0wB0xn9sEmFPtdfs0unUzcTRQ?e=6OzFgH" target="_blank">here</a>.</p>
+    <p>Check out my GitHub  <a href="https://github.com/demiadej" target="_blank">here</a>.</p>
+  </section>
+
+
+
+
+  <section id="contact" class="tab-content">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me. Use the form below:</p>
+    <form
+      action="https://formspree.io/f/mnqeadrr"
+      method="POST"
+    >
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+<div id="loading" class="loading-overlay">
+  <div class="loading-spinner"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
