@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
         tabContent.style.display = 'none';
       });
 
-      // Simulate a delay (you can replace this with actual data loading)
       await new Promise(resolve => setTimeout(resolve, 1000));
 
       // Hide loading spinner
@@ -50,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         targetTab.style.display = 'block';
       }
 
-      // Reset paragraph index when switching to the home section
+      // This resets paragraph index when switching to the home section
       if (targetId === 'home') {
         currentParagraphIndex = 0;
         showParagraph(currentParagraphIndex);
